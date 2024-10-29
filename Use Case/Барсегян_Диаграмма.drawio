@@ -1,0 +1,201 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Страница — 1" id="a8eqLg3ZZo-qP5isgmGj">
+    <mxGraphModel dx="2620" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JBblinhaMuXWA7dk82WG-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JBblinhaMuXWA7dk82WG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-31" value="Прямая стелка - просто действие" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JBblinhaMuXWA7dk82WG-9">
+          <mxGeometry x="-0.6109" y="1" relative="1" as="geometry">
+            <mxPoint x="53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-1" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-3" value="Учет заявок орготехники" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="45" width="420" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=none;" edge="1" parent="JBblinhaMuXWA7dk82WG-3" source="JBblinhaMuXWA7dk82WG-4" target="JBblinhaMuXWA7dk82WG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-4" value="заказ заппчастей" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-3">
+          <mxGeometry x="170" y="205" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-2" value="Исполнение заявки" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-3">
+          <mxGeometry x="160" y="75" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.558;exitY=-0.037;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="JBblinhaMuXWA7dk82WG-3" source="JBblinhaMuXWA7dk82WG-4" target="JBblinhaMuXWA7dk82WG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="155" as="sourcePoint" />
+            <mxPoint x="140" y="105" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-23" value="extend (уточнее деталей)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JBblinhaMuXWA7dk82WG-22">
+          <mxGeometry x="0.3578" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-10" value="Прямая стрелка - просто действие" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-33" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;ПРИМЕР&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-140" width="880" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-34" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Задание&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="410" width="880" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-35" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="480" width="750" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-38" value="&lt;span id=&quot;docs-internal-guid-44100601-7fff-1263-8ec4-2a80e078338a&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;отредактировать свою заявку&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;.&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="250" y="80" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-37" value="&lt;span id=&quot;docs-internal-guid-7c290222-7fff-8ffe-94df-c09f6e60288e&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;оставляет новую заявку&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;. &lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="50" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-44" value="&lt;span id=&quot;docs-internal-guid-b1458372-7fff-610f-3854-da0df784b1dd&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;обработка заявок&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="35" y="310" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-43" value="&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;регистрация заявки&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="30" y="225" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="JBblinhaMuXWA7dk82WG-35" source="JBblinhaMuXWA7dk82WG-50" target="JBblinhaMuXWA7dk82WG-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-75" value="extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JBblinhaMuXWA7dk82WG-74">
+          <mxGeometry x="-0.3378" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-50" value="&lt;span id=&quot;docs-internal-guid-deab1e79-7fff-ab1b-fac1-200954512941&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;заказа запчастей&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="370" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="JBblinhaMuXWA7dk82WG-35" source="JBblinhaMuXWA7dk82WG-49" target="JBblinhaMuXWA7dk82WG-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-77" value="extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JBblinhaMuXWA7dk82WG-76">
+          <mxGeometry x="-0.2791" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-49" value="&lt;span id=&quot;docs-internal-guid-ea94180f-7fff-badd-2a9d-9f7a1b67771a&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;координации работ&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="310" y="490" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="JBblinhaMuXWA7dk82WG-35" source="JBblinhaMuXWA7dk82WG-53" target="JBblinhaMuXWA7dk82WG-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-67" value="extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JBblinhaMuXWA7dk82WG-65">
+          <mxGeometry x="0.0536" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="JBblinhaMuXWA7dk82WG-35" source="JBblinhaMuXWA7dk82WG-53" target="JBblinhaMuXWA7dk82WG-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-68" value="extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JBblinhaMuXWA7dk82WG-66">
+          <mxGeometry x="-0.075" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-53" value="&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;уточяеи детали&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="330" y="210" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="JBblinhaMuXWA7dk82WG-35" source="JBblinhaMuXWA7dk82WG-54" target="JBblinhaMuXWA7dk82WG-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-79" value="extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JBblinhaMuXWA7dk82WG-78">
+          <mxGeometry x="-0.7153" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-54" value="&lt;span id=&quot;docs-internal-guid-df4aac4f-7fff-e849-0017-debd0c3f3a82&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;вносит необходимые изменения&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="520" y="450" width="160" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-55" value="&lt;span id=&quot;docs-internal-guid-dc7239bf-7fff-5bac-28e1-76658fa9ee3c&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;предоставить отчёт&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="20" y="550" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-57" value="&lt;span id=&quot;docs-internal-guid-1a5f4e87-7fff-f70c-220d-315de2a26f75&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;консультантация&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="35" y="670" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="JBblinhaMuXWA7dk82WG-35" source="JBblinhaMuXWA7dk82WG-58" target="JBblinhaMuXWA7dk82WG-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-84" value="extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JBblinhaMuXWA7dk82WG-83">
+          <mxGeometry x="-0.1739" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-58" value="&lt;span id=&quot;docs-internal-guid-2b9defb5-7fff-7145-bbd4-76f730f45690&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;продлевать срок выполнения заявки&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="300" y="670" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="JBblinhaMuXWA7dk82WG-35" source="JBblinhaMuXWA7dk82WG-60" target="JBblinhaMuXWA7dk82WG-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-87" value="extend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JBblinhaMuXWA7dk82WG-86">
+          <mxGeometry x="-0.1111" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-60" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot; id=&quot;docs-internal-guid-7afdb584-7fff-e81c-e512-2afeddde73ba&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;отслеживать к&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;ачество работы&lt;/span&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="310" y="770" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-70" value="&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;исполнение заявок&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="60" y="425" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-80" value="&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;привлекать мстера к работе&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JBblinhaMuXWA7dk82WG-35">
+          <mxGeometry x="30" y="830" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JBblinhaMuXWA7dk82WG-36" target="JBblinhaMuXWA7dk82WG-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JBblinhaMuXWA7dk82WG-36" target="JBblinhaMuXWA7dk82WG-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-36" value="Заказчик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="560" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JBblinhaMuXWA7dk82WG-39" target="JBblinhaMuXWA7dk82WG-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JBblinhaMuXWA7dk82WG-39" target="JBblinhaMuXWA7dk82WG-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-39" value="оператором" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="760" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-45" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Extend - необязательно&lt;/font&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Includ - дополнительно (плюсом к действию)&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-80" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JBblinhaMuXWA7dk82WG-46" target="JBblinhaMuXWA7dk82WG-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JBblinhaMuXWA7dk82WG-46" target="JBblinhaMuXWA7dk82WG-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-46" value="&lt;b id=&quot;docs-internal-guid-18314ec0-7fff-f238-424b-fab6d5c40243&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;мастер&lt;/span&gt;&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="905" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JBblinhaMuXWA7dk82WG-56" target="JBblinhaMuXWA7dk82WG-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JBblinhaMuXWA7dk82WG-56" target="JBblinhaMuXWA7dk82WG-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-56" value="&lt;b id=&quot;docs-internal-guid-0030f1f4-7fff-a349-4348-963dd6e0c8d8&quot; style=&quot;font-weight:normal;&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;менеджера&lt;/span&gt;&lt;/b&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="1160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JBblinhaMuXWA7dk82WG-88" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Пунктирная - от овала к овалу (что-то дополнительно)&lt;/font&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;Прямая - от человека к действию&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-80" width="470" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

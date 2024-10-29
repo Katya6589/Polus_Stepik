@@ -1,0 +1,6 @@
+IDrequest;startDate;orgTechTypeID;orgTechModel;problemDescryption;requestStatusID;completionDate;repairParts;masterID;clientID
+1;2023-06-06;1;DEXP Aquilon O286;Перестал работать;1;;;2;7
+2;2023-05-05;1;DEXP Atlas H388;Перестал работать;1;;;3;8
+3;2022-07-07;2;MSI GF76 Katana 11UC-879XRU черный;Выключается;2;2023-01-01;;3;9
+4;2023-08-02;2;MSI Modern 15 B12M-211RU черный;Выключается;3;;;;8
+5;2023-08-02;3;HP LaserJet Pro M404dn;Перестала включаться;3;;;;9
